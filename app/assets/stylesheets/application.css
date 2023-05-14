@@ -30,6 +30,20 @@ body {
   line-height: 33px
 }
 
+table {
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-color: grey;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-spacing: inherit;
+}
 
 p {
     font-family: verdana, arial, helvetica, sans-serif;
